@@ -8,14 +8,6 @@ export function Hero() {
         Заполните короткую анкету, чтобы я могла понять задачу и подготовить
         предложение.
       </p>
-      <div className="mt-10">
-        <a
-          href="#anketa-form"
-          className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-8 py-3.5 text-sm font-medium text-[var(--accent-fg)] transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-        >
-          Заполнить анкету
-        </a>
-      </div>
     </section>
   );
 }
