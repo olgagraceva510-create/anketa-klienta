@@ -96,6 +96,16 @@ export function ContactForm() {
           <br />
           Я свяжусь с вами в ближайшее время.
         </p>
+        <div className="mt-6">
+          <a
+            href="https://t.me/USERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-full items-center justify-center rounded-full bg-[var(--accent)] px-8 py-3.5 text-sm font-medium text-[var(--accent-fg)] transition-opacity hover:opacity-90 sm:w-auto"
+          >
+            Написать в Telegram
+          </a>
+        </div>
         <button
           type="button"
           onClick={() => setStatus("idle")}
